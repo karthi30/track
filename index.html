@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Track</title>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+     <div class="container">
+      <header class="col-md-12">
+        <!-- Logo -->
+          <div class="col-md-6 col-xs-12 logo pull-left">
+    	   <img src="images/logo.jpg" />
+        </div>
+        <div class="col-md-6 col-xs-12 hits">
+    	   <p class="pull-right"><b>API Hits:</b> <span>900</span> |  <b>Total Parcels:</b> <span id="parcels-count">    </span></p>
+        </div> 
+          <!-- /Logo -->
+      </header>
+      <div class="clear"></div>  
+      <div class="col-md-12 main-content">
+          <div class="col-md-6 col-xs-12 border-right">
+            <div class="search">
+             <i class="glyphicon glyphicon-search"></i>
+              <input type="search" placeholder="(search by name, price, weight)">
+              </div>
+              <div class="result-content">
+                  
+              </div> 
+              <div class="sort col-md-4">
+                  <a href="#"><i class="glyphicon glyphicon-filter"></i>Sort by</a>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="sortby col-md-7">
+                      <a href="#"><i class="glyphicon glyphicon-usd"></i>Value</a>
+                      <a href="#"><i class="glyphicon glyphicon-oil"></i>Weight</a>
+                  </div>
+              </div>
+          <div class="col-md-6 col-xs-12">
+             <div class="border-outline">
+              <div class="img-content col-md-4">
+                  <img src="images/logo.jpg" alt="">
+                  <p>8/12/15 <i class="glyphicon glyphicon-calendar pull-right"></i></p>
+              </div>
+              <div class="col-md-8 product-info">
+                  <div class="product-head"><b>Airwick Aroma Oil</b></div>
+                  <div class="product-content-left col-md-7">
+                  <p class="type"><i class="glyphicon glyphicon-shopping-cart"></i>House hold</p>
+                  <p class="weight"><i class="glyphicon glyphicon-oil"></i>0.8 kg</p>
+                  <p class="phone"><i class="glyphicon glyphicon-earphone"></i>9876543210</p>
+                  </div>
+                  <div class="product-content-right col-md-5">
+                      <p class="price"><i class="glyphicon glyphicon-usd"></i>685</p>
+                      <p class="quantity"><i class="glyphicon glyphicon-th"></i>5</p>
+                      <div class="color" style="background:#fff;"></div><span>color</span> 
+                  </div>
+              </div>
+                 <div class="clearfix"></div>
+                  <div class="current-loc">
+              Current Location(Live Update)
+          </div>
+          <div class="clearfix"></div>
+          <div class="map">
+             <iframe src = "https://maps.google.com/maps?q=12.935443,77.612638&hl=es;z=14&amp;output=embed" width="100%" frameborder="0"></iframe>
+          </div>
+          <div class="clearfix"></div>
+          <div class="social col-md-12">
+              <div class="col-md-6"><a href="">Like</a></div>
+              <div class="col-md-6"><a href="">Share</a></div>
+          </div>
+          </div> <!-- / border outline-->
+      
+          </div>
+      </div>   
+    
+      
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main-script.js"></script>
+  </body>
+</html>

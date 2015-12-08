@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    margin: 0 auto;
+}
+.logo img{
+	width: 100px;
+}
+header{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.container{
+    max-width: 800px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    padding: 10px 0 0;
+    border-radius: 5px;
+}
+.hits p{
+    border: 1px solid #797D28;
+    background: #EFF732;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+.main-content{
+    padding: 20px 0;
+    background: #eee;
+}
+.border-right{
+    border-right: 1px solid #ccc;
+}
+.search input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.glyphicon-search{
+    position: absolute;
+    padding:8px;
+    pointer-events: none;
+}
+.result-content p{
+    border: 1px solid #000;
+    background: #F2DEDE;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 5px 0;
+    color: #000;
+    cursor: pointer;
+}
+
+
+.sort, .sortby{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+}
+.sort a, .sortby a{
+    color: #000;
+}
+.sortby a{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 8px 23px;
+}
+.border-outline{
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+}
+.img-content{
+    padding-left: 0;
+}
+.img-content img{
+    width: 100%;
+}
+.img-content p{
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    background: #fff; 
+    border-radius: 5px;
+        font-size: 12px;
+}
+.product-info{
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0;    
+}
+.product-head{
+    background: #ccc;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    font-size: 16px;
+}
+.product-content-left, .product-content-right{
+    padding: 10px;
+}
+.product-content-left i, .product-content-right i{
+    padding-right: 10px;
+}
+.color{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin-right: 10px;
+    float: left;
+    border-radius: 5px;    
+}
+.current-loc{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #D9EDF7;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    clear: both;
+    padding: 5px;
+    cursor: pointer;
+}
+.map img{
+    height: 150px;
+    width: 100%;
+}
+.social{
+    padding: 20px 0;
+    text-align: center;    
+}
+.social a{
+    padding:10px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #5CB85C;
+    background: #D6E9C6;
+}
+
+
